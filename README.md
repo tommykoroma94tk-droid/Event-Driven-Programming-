@@ -40,10 +40,6 @@ JavaSwingAssignment/
 ├── wireframes/
 │   ├── low_fidelity_wireframe.png
 │   └── high_fidelity_wireframe.png
-├── screenshots/
-│   └── (To be added once the GUI is executed)
-├── docs/
-│   └── README.md
 ├── .gitignore
 └── README.md
 ```
@@ -82,8 +78,7 @@ java -cp src ClassAssignment
 - **Tests not performed:** Successful compilation, successful application launch, and manual button testing could not be performed because the current environment does not have the `javac` compiler installed or a graphical interface available to launch desktop applications. Screenshots are consequently pending.
 
 ## Known Limitations
-- The `resources/app_logo.png` icon file is currently missing from the repository structure. The application will launch with a text fallback `[ </> ]` but will display an error message in the console until the PNG is provided.
-- Screenshots of the running application are missing.
+- Screenshots of the running application are currently missing as GUI execution was not performed in this environment.
 
 ## Conclusion
 This submission successfully implements the necessary logic, layout, and OOP principles outlined in the Java Swing Assignment rubric. Upon adding the missing image asset and compiling in a local Java environment, the application will fully represent the high-fidelity design.

@@ -4,10 +4,10 @@
 **Student ID:** 905005353  
 **Class:** DIT1201F  
 **Project Title:** Java Swing Assignment  
-**Application Name:** Java Swing Studio  
+**Application Name:** Java Swing Assignment  
 
 ## Project Overview
-Java Swing Studio is a simple interactive Java desktop application developed to demonstrate the fundamental Java Swing components required by the assignment.
+Java Swing Assignment is a simple interactive Java desktop application developed to demonstrate the fundamental Java Swing components required by the assignment.
 
 ## Assignment Objectives
 The primary objective of this project is to build an interactive GUI demonstrating understanding of core Java Swing components, object-oriented principles (inheritance and constructors), and basic event handling.
@@ -29,7 +29,7 @@ The primary objective of this project is to build an interactive GUI demonstrati
 ## Java Swing Components Used
 - **JFrame**: The main application window. The `ClassAssignment` class inherits directly from `JFrame` (`public class ClassAssignment extends JFrame`). The window is configured to an 800x800 resolution and closes properly using `EXIT_ON_CLOSE`.
 - **JPanel**: A container used to hold and organize the UI elements (`label`, buttons, description). The background color of this panel is interactive.
-- **JLabel**: Used for displaying text. The main `label` variable displays the primary title ("Java Swing Studio") and is updated interactively. Additional labels display the student name and description.
+- **JLabel**: Used for displaying text. The main `label` variable displays the primary title ("Java Swing Assignment") and is updated interactively. Additional labels display the student name and description.
 - **ImageIcon**: Used to load the `app_logo.png` resource. It is applied to the application window frame (`setIconImage`) and embedded into the UI using a `JLabel` (`setIcon`).
 
 ## Project Structure
@@ -65,7 +65,7 @@ java -cp src ClassAssignment
 ## Application Functionality
 - **Change Text Button**: Modifies the main title label to say "Welcome to Java Swing!".
 - **Change Background Button**: Changes the main panel's background to a light teal color.
-- **Reset Button**: Restores the title label to "Java Swing Studio" and the background to white.
+- **Reset Button**: Restores the title label to "Java Swing Assignment" and the background to white.
 
 ## Wireframe Images
 

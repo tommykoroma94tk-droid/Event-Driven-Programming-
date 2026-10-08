@@ -30,7 +30,7 @@ public class ClassAssignment extends JFrame {
     private final Color TEXT_GRAY = new Color(107, 114, 128);
 
     // Initial state
-    private final String INITIAL_TEXT = "Java Swing Studio";
+    private final String INITIAL_TEXT = "Java Swing Assignment";
 
     public ClassAssignment() {
         // Satisfy the 'frame' variable requirement

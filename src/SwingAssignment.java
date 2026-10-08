@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 
-public class ClassAssignment extends JFrame {
+public class SwingAssignment extends JFrame {
 
     // Required variables by assignment
     private JFrame frame;
@@ -32,7 +32,7 @@ public class ClassAssignment extends JFrame {
     // Initial state
     private final String INITIAL_TEXT = "Java Swing Assignment";
 
-    public ClassAssignment() {
+    public SwingAssignment() {
         // Satisfy the 'frame' variable requirement
         this.frame = this;
 
@@ -189,7 +189,7 @@ public class ClassAssignment extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                ClassAssignment app = new ClassAssignment();
+                SwingAssignment app = new SwingAssignment();
                 app.setVisible(true);
             }
         });

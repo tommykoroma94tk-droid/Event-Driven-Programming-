@@ -27,7 +27,7 @@ The primary objective of this project is to build an interactive GUI demonstrati
 - **Simple, centered desktop interface:** An 800x800 window designed accurately to the provided Figma mockups.
 
 ## Java Swing Components Used
-- **JFrame**: The main application window. The `ClassAssignment` class inherits directly from `JFrame` (`public class ClassAssignment extends JFrame`). The window is configured to an 800x800 resolution and closes properly using `EXIT_ON_CLOSE`.
+- **JFrame**: The main application window. The `SwingAssignment` class inherits directly from `JFrame` (`public class SwingAssignment extends JFrame`). The window is configured to an 800x800 resolution and closes properly using `EXIT_ON_CLOSE`.
 - **JPanel**: A container used to hold and organize the UI elements (`label`, buttons, description). The background color of this panel is interactive.
 - **JLabel**: Used for displaying text. The main `label` variable displays the primary title ("Java Swing Assignment") and is updated interactively. Additional labels display the student name and description.
 - **ImageIcon**: Used to load the `app_logo.png` resource. It is applied to the application window frame (`setIconImage`) and embedded into the UI using a `JLabel` (`setIcon`).
@@ -36,7 +36,7 @@ The primary objective of this project is to build an interactive GUI demonstrati
 ```text
 JavaSwingAssignment/
 ├── src/
-│   └── ClassAssignment.java
+│   └── SwingAssignment.java
 ├── resources/
 │   └── app_logo.png
 ├── wireframes/
@@ -52,13 +52,13 @@ JavaSwingAssignment/
 ## Compilation Instructions
 To compile the application, navigate to the root directory of the project in your terminal and run:
 ```bash
-javac src/ClassAssignment.java
+javac src/SwingAssignment.java
 ```
 
 ## Execution Instructions
 To execute the application, ensure the `resources` directory is available relative to where you run the program. From the root directory:
 ```bash
-java -cp src ClassAssignment
+java -cp src SwingAssignment
 ```
 *Note: The application expects the `app_logo.png` file to be located in the `resources/` folder relative to the execution directory.*
 

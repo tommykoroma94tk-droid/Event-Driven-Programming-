@@ -1,6 +1,8 @@
 # Java Swing Assignment
 
 **Student Name:** Joseph Tommy Koroma  
+**Student ID:** 905005353  
+**Class:** DIT1201F  
 **Project Title:** Java Swing Assignment  
 **Application Name:** Java Swing Studio  
 
